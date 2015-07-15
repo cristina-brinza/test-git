@@ -64,7 +64,7 @@ public class MainActivity extends Activity implements FacebookManager.OnFacebook
 
         // Instantiate the RequestQueue.
         RequestQueue queue = Volley.newRequestQueue(this);
-        // Buna :)
+        // Buna :). Pe mine ma cheama Ion. Pe tine cum te cheama? :)
 //        String url = "http://simurg.site40.net/get_cars.php?username=cristina";
 //
 //        // Request a string response from the provided URL.
