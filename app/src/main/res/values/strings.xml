@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="next_button">Next</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="username">Username</string>
+
+    <!-- facebook app id -->
+    <string name="facebook_app_id">1637451529831478</string>
+</resources>
