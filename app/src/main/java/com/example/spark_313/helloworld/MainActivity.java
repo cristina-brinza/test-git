@@ -1,5 +1,6 @@
 package com.example.spark_313.helloworld;
 
+import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -7,7 +8,6 @@ import android.content.IntentFilter;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.content.LocalBroadcastManager;
-import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -19,13 +19,11 @@ import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 import com.example.spark_313.helloworld.facebook.FacebookManager;
 import com.example.spark_313.helloworld.gcm.HelloWorldRegistrationIntentService;
-import com.example.spark_313.helloworld.utils.IOUtils;
-import com.facebook.FacebookSdk;
 import com.facebook.appevents.AppEventsLogger;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 
-public class MainActivity extends ActionBarActivity implements FacebookManager.OnFacebookLoginListener {
+public class MainActivity extends Activity implements FacebookManager.OnFacebookLoginListener {
 
     private static final int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
     private static final String TAG = "MainActivity";
@@ -66,6 +64,7 @@ public class MainActivity extends ActionBarActivity implements FacebookManager.O
 
         // Instantiate the RequestQueue.
         RequestQueue queue = Volley.newRequestQueue(this);
+        // Buna :)
 //        String url = "http://simurg.site40.net/get_cars.php?username=cristina";
 //
 //        // Request a string response from the provided URL.
